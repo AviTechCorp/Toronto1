@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login/Register Form</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="index.js" defer></script>
+</head>
+<body>
+  <div class="form-container">
+    <div id="register-form" class="form active-form">
+      <h2>Register</h2>
+      <form>
+        <input type="email" name="email" placeholder="Email" id="register-email" required>
+        <input type="password" name="password" placeholder="Password" id="register-password" required>
+        <button id="register-submit" type="submit">Register</button>
+      </form>
+    </div>
+    <div id="login-form" class="form">
+      <h2>Log In</h2>
+      <form>
+        <input type="email" name="email" placeholder="Email" id="login-email" required>
+        <input type="password" name="password" placeholder="Password" id="login-password" required>
+        <button id="login-submit" type="submit">Log In</button>
+      </form>
+    </div>
+    <div class="form-links">
+      <a id="show-register">Register</a>
+      <span>|</span>
+      <a id="show-login">Log In</a>
+    </div>
+  </div>
+</body>
+</html>
